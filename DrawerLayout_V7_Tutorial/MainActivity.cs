@@ -158,14 +158,15 @@ namespace DrawerLayout_V7_Tutorial
 				
 				mDrawerToggle.OnOptionsItemSelected(item);
 				return true;
+                
 
 			case Resource.Id.action_refresh:
-				//Refresh
+                Toast.MakeText(this, "Refresh clicked", ToastLength.Short).Show();
 				return true;
 
 			case Resource.Id.action_help:
-			
 
+                Toast.MakeText(this, "Help clicked", ToastLength.Short).Show();
 				return true;
 
 			default:
